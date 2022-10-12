@@ -3,6 +3,7 @@
     justify-content: space-between;
     font-weight: 500;
     align-items: center;
+    box-shadow: 0 1px 6px rgba(0, 0, 0, 0.1);
 }
 
 .menu__logo {
@@ -41,7 +42,7 @@
     border: 1px solid var(--vinho);
     color: var(--branco);
     border-radius: 10px;
-    padding: 1em;
+    padding: .7em 1em;
     margin: 0 0 0 1em;
     transition: ease-in-out 300ms;
 }
@@ -56,7 +57,7 @@
     background-color: var(--branco);
     color: var(--cinza);
     border-radius: 10px;
-    padding: 1em;
+    padding: .7em 1em;
     transition: ease-in-out 300ms;
 }
 
@@ -64,5 +65,18 @@
     background-color: var(--branco-claro);
     color: var(--cinza);
     border-radius: 10px;
-    padding: 1em;
+}
+
+@media screen and (max-width: 1024px){
+    .menu__item {
+        display: none;
+    }
+
+    .menu_logo-texto {
+        display: none;
+    }
+
+    .container {
+        padding: 1.5em;
+    }
 }
