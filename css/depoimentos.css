@@ -1,0 +1,32 @@
+.depoimentos {
+    text-align: center;
+    background-color: rgba(196, 25, 25, 0.03);
+    border-radius: 15px;
+    margin: 5em;
+    padding: 2em;
+}
+
+.depoimentos__title {
+    color: var(--vinho);
+    font-weight: 600;
+    font-size: 14px;
+    margin: 1.5em;
+}
+
+.depoimentos__text {
+    font-size: 36px;
+    font-weight: 500;
+    color: black;
+    margin-bottom: 1em;
+}
+
+.depoimentos__person {
+    font-weight: 500;
+    margin: 1.5em;
+}
+
+.depoimentos__cargo {
+    font-size: 14px;
+    color: var(--cinza);
+    margin-bottom: 1.5em;
+}
