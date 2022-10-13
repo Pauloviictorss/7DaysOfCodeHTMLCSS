@@ -66,17 +66,3 @@
     color: var(--cinza);
     border-radius: 10px;
 }
-
-@media screen and (max-width: 1024px){
-    .menu__item {
-        display: none;
-    }
-
-    .menu_logo-texto {
-        display: none;
-    }
-
-    .container {
-        padding: 1.5em;
-    }
-}
